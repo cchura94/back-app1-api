@@ -1,0 +1,23 @@
+{
+  "name": "back-app1",
+  "version": "1.0.0",
+  "description": "aprendiendo servicios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/index.js",
+    "start": "npm run dev"
+  },
+  "keywords": [
+    "node",
+    "ia"
+  ],
+  "author": "Cristian",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.60.0"
+  }
+}
