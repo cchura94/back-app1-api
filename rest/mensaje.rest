@@ -1,1 +1,9 @@
 POST http://localhost:3001/enviar-mensaje-template
+
+### 
+POST http://localhost:3002/openai/texto
+Content-Type: application/json
+
+{
+    "pregunta": "Me vendes 1 asus y 1 HP?"
+}
